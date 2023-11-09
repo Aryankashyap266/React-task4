@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+table {
+  margin: 5rem auto;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 80rem;
+  background-color: black;
+  color: white;
+  border: 1px solid #443C68;
+  box-shadow: 0 0 0 1px black;
+}
+
+th {
+  background-color: #443C68;
+  color: white;
+  font-size: 1.8rem;
+  padding: 1rem;
+}
+
+td {
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+tr:nth-child(even) {
+  background-color: #282533;
+}
+
+tr:nth-child(odd) {
+  background-color: #3A364C;
+}
+.fixed-heading {
+  position: fixed;
+  top: 5%; /* Position it 50% from the top of the viewport */
+  left: 50%; /* Position it 50% from the left of the viewport */
+  transform: translate(-50%, -50%); /* Center the element both horizontally and vertically */
+  background-color: #e9e7f1;
+  color: rgb(224, 16, 16);
+  padding: 10px;
+  font-size: 40px;
+  z-index: 1; /* Ensure it appears above the table */
+}
+
